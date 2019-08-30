@@ -62,12 +62,25 @@ public class Person {
 		return String.format("%03d-%02d-%04d", ssn/1000000,ssn%1000000/10000, ssn%10000); 
 
 	}
-// TODO provide the getter methods for placeDob and address 
-// TODO Override the public String toString() method that is similar to the 
+// TODO provide the getter methods for placeDob and address
+	public DateAndPlaceOfBirth getPlaceDob() {
+		return placeDob;
+	}
+
+	public StreetUSAddress getAddress() {
+		return address;
+	}
+
+// TODO Override the public String toString() method that is similar to the
 // toString of the StreetUSAddress class and will print a person as:
 // Jane Doe (111-22-3333), 
 // Date and place of birth: 1999-04-23, Springfield, CA, USA
 // 123 Main Street
 // Apt 1B
 // Binghamton, NY 13905
+    public String toString() {
+		System.out.println(this.firstNames + " " + this.lastNames + " (" + this.ssn + "),");
+		System.out.println("Date and place of birth: " + this.placeDob);
+		System.out.println(this.address);
+	}
 }
