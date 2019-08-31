@@ -26,7 +26,6 @@ public class USAddressTester {
             StreetUSAddress usAddress22 = new StreetUSAddress("22 Conklin Ave", "#2FW", "Binghamton", "NY", "13903");
             output.println(usAddress22);
 
-
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }

@@ -1,0 +1,88 @@
+
+
+TESTS FOR ComputerOwner.java:
+Computer List, Owner: Bob Builder (142-23-2405),
+Date and place of birth: 1994-05-14, Bronx, NY, USA
+63-21 Alderton St
+Rego Park, NY 11374
+Computers: []
+Computer List, Owner: Bob Builder (142-23-2405),
+Date and place of birth: 1994-05-14, Bronx, NY, USA
+63-21 Alderton St
+Rego Park, NY 11374
+Computers: []
+
+TESTS FOR Computer.java:
+Dell, AMD Ryzen 5 1600X, 16GB Memory, 2.0TB Hard Drive, Price: $1599.99 
+Alienware, Intel Core i9 9900K, 32GB Memory, 3.0TB Solid State Drive, Price: $1999.99 
+PowerPC, Intel Core i3-9100F, 16GB Memory, 900GB Solid State Drive, Price: $1199.99 
+Toshiba, AMD Ryzen 3 2200G, 8GB Memory, 500GB Hard Drive, Price: $999.99 
+
+TESTS FOR Person.java:
+Andrei Georgescu (123-45-6789),
+Date and place of birth: 1993-06-24, Queens, NY, USA
+22 Conklin Ave
+#2FW
+Binghamton, NY 13903
+
+TESTS FOR DateAndPlaceOfBirth.java:
+Date and place of birth: 1993-06-24, Queens, NY, USA
+Date and place of birth: 1996-06-24, Bronx, NY, USA
+Date and place of birth: 1994-02-21, Miami, FL, USA
+Date and place of birth: 1993-06-24, Bucharest, Romania
+Date and place of birth: 1997-04-14, Athens, Greece
+true
+false
+false
+true
+true
+false
+false
+false
+false
+false
+true
+true
+true
+false
+false
+false
+false
+true
+false
+false
+false
+true
+false
+true
+true
+false
+false
+false
+false
+true
+false
+false
+true
+false
+false
+false
+true
+false
+false
+false
+
+TESTS FOR SimpleDate.java:
+false
+true
+false
+true
+false
+true
+
+TESTS FOR StreetUSAddress.java:
+63-21 Alderton St
+Queens, NY 11374
+22 Conklin Ave
+#2FW
+Binghamton, NY 13903

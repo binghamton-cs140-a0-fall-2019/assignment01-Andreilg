@@ -15,15 +15,15 @@ public class PlaceDOBTester {
         // methods that are not getter methods, e.g., System.out.println(object1.hasSameBirthDayAs(object2)).
         // You will need many lines to test the 4 methods, we want to see that get the right true and false values
         // for the different combinations of the objects you made.
-        DateAndPlaceOfBirth dobnplace1 = new DateAndPlaceOfBirth(1993, 06, 24, "Queens", "New York", "USA");
+        DateAndPlaceOfBirth dobnplace1 = new DateAndPlaceOfBirth(1993, 6, 24, "Queens", "NY", "USA");
         System.out.println(dobnplace1);
-        DateAndPlaceOfBirth dobnplace2 = new DateAndPlaceOfBirth(1996, 06, 24, "Bronx", "New York", "USA");
+        DateAndPlaceOfBirth dobnplace2 = new DateAndPlaceOfBirth(1996, 6, 24, "Bronx", "NY", "USA");
         System.out.println(dobnplace2);
-        DateAndPlaceOfBirth dobnplace3 = new DateAndPlaceOfBirth(1994, 09, 21, "Miami", "Florida", "USA");
+        DateAndPlaceOfBirth dobnplace3 = new DateAndPlaceOfBirth(1994, 2, 21, "Miami", "FL", "USA");
         System.out.println(dobnplace3);
-        DateAndPlaceOfBirth dobnplace4 = new DateAndPlaceOfBirth(1993, 06, 24, "Bucharest", "Romania");
+        DateAndPlaceOfBirth dobnplace4 = new DateAndPlaceOfBirth(1993, 6, 24, "Bucharest", "Romania");
         System.out.println(dobnplace4);
-        DateAndPlaceOfBirth dobnplace5 = new DateAndPlaceOfBirth(1997, 04, 14, "Athens", "Greece");
+        DateAndPlaceOfBirth dobnplace5 = new DateAndPlaceOfBirth(1997, 4, 14, "Athens", "Greece");
         System.out.println(dobnplace5);
 
         System.out.println(dobnplace1.olderThan(dobnplace2));
@@ -74,15 +74,15 @@ public class PlaceDOBTester {
             //Copy all your lines above, add an extra "2" to every variable name
             // and replace every System.out.print or System.out.println
             // by output.print or output.println
-            DateAndPlaceOfBirth dobnplace12 = new DateAndPlaceOfBirth(1993, 06, 24, "Queens", "New York", "USA");
+            DateAndPlaceOfBirth dobnplace12 = new DateAndPlaceOfBirth(1993, 6, 24, "Queens", "NY", "USA");
             output.println(dobnplace12);
-            DateAndPlaceOfBirth dobnplace22 = new DateAndPlaceOfBirth(1996, 06, 24, "Bronx", "New York", "USA");
+            DateAndPlaceOfBirth dobnplace22 = new DateAndPlaceOfBirth(1996, 6, 24, "Bronx", "NY", "USA");
             output.println(dobnplace22);
-            DateAndPlaceOfBirth dobnplace32 = new DateAndPlaceOfBirth(1994, 09, 21, "Miami", "Florida", "USA");
+            DateAndPlaceOfBirth dobnplace32 = new DateAndPlaceOfBirth(1994, 2, 21, "Miami", "FL", "USA");
             output.println(dobnplace32);
-            DateAndPlaceOfBirth dobnplace42 = new DateAndPlaceOfBirth(1993, 06, 24, "Bucharest", "Romania");
+            DateAndPlaceOfBirth dobnplace42 = new DateAndPlaceOfBirth(1993, 6, 24, "Bucharest", "Romania");
             output.println(dobnplace42);
-            DateAndPlaceOfBirth dobnplace52 = new DateAndPlaceOfBirth(1997, 04, 14, "Athens", "Greece");
+            DateAndPlaceOfBirth dobnplace52 = new DateAndPlaceOfBirth(1997, 4, 14, "Athens", "Greece");
             output.println(dobnplace52);
 
             output.println(dobnplace12.olderThan(dobnplace22));

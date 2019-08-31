@@ -78,9 +78,9 @@ public class Person {
 // 123 Main Street
 // Apt 1B
 // Binghamton, NY 13905
-    public String toString() {
-		System.out.println(this.firstNames + " " + this.lastNames + " (" + this.ssn + "),");
-		System.out.println("Date and place of birth: " + this.placeDob);
-		System.out.println(this.address);
+	@Override
+	public String toString() {
+	    return String.format("%s %s (%s),\n%s\n%s", this.getFirstNames(), this.getLastNames(), this.getSSN(),
+				this.getPlaceDob(), this.getAddress());
 	}
 }
